@@ -11,5 +11,5 @@ import JobListings from '@/components/JobListings.vue';
   <!-- <Hero title="Test Title" subtitle="Subtest Title" /> -->
   <Hero />
   <HomeCards />
-  <JobListings />
+  <JobListings limit="3" showButton="true"/>
 </template>
