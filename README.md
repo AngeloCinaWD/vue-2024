@@ -15,3 +15,5 @@ setto la porta che voglio per runnare il web server con npm run serve, default Ã
 [vue-router](https://router.vuejs.org/installation.html)
 
 [json-server](https://www.npmjs.com/package/json-server)
+
+[axios](https://www.npmjs.com/package/axios#package-manager)
