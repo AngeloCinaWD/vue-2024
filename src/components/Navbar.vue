@@ -1,5 +1,12 @@
 <script setup>
+import { RouterLink, useRoute } from 'vue-router';
 import logo from '@/assets/img/logo.png';
+
+const isActiveLink = (routePath) => {
+  const route = useRoute();
+  return route === routePath;
+};
+
 </script>
 
 <template>
@@ -10,28 +17,35 @@ import logo from '@/assets/img/logo.png';
           class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
         >
           <!-- Logo -->
-          <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
+           <!-- uso del RouterLink al posto degli <a> -->
+          <!-- <a class="flex flex-shrink-0 items-center mr-4" href="index.html">
             <img class="h-10 w-auto" :src="logo" alt="Vue Jobs" />
             <span class="hidden md:block text-white text-2xl font-bold ml-2"
               >Vue Jobs</span
             >
-          </a>
+          </a> -->
+          <RouterLink class="flex flex-shrink-0 items-center mr-4" to="/">
+            <img class="h-10 w-auto" :src="logo" alt="Vue Jobs" />
+            <span class="hidden md:block text-white text-2xl font-bold ml-2"
+              >Vue Jobs</span
+            >
+          </RouterLink>
           <div class="md:ml-auto">
             <div class="flex space-x-2">
-              <a
-                href="/"
+              <RouterLink
+                to="/"
                 class="text-white bg-green-900 hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
-                >Home</a
+                >Home</RouterLink
               >
-              <a
-                href="/jobs"
+              <RouterLink
+                to="/jobs"
                 class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
-                >Jobs</a
+                >Jobs</RouterLink
               >
-              <a
-                href="/jobs/add"
+              <RouterLink
+                to="/jobs/add"
                 class="text-white hover:bg-green-900 hover:text-white rounded-md px-3 py-2"
-                >Add Job</a
+                >Add Job</RouterLink
               >
             </div>
           </div>
