@@ -15,7 +15,7 @@ const showFullDescription = ref(false);
 
 const toggleShowFullDescription = () => {
   showFullDescription.value = !showFullDescription.value;
-}
+};
 
 const truncatedDescription = computed(() => {
   let description = props.job.description;
@@ -38,8 +38,13 @@ const truncatedDescription = computed(() => {
 
       <div class="mb-5">
         <!-- {{ job.description }} -->
-          <div>{{ truncatedDescription }}</div>
-          <button @click="toggleShowFullDescription" class="text-green-500 hover:text-green-600 mb-5"> {{ showFullDescription ? 'Less' : 'More' }} </button>
+        <div>{{ truncatedDescription }}</div>
+        <button
+          @click="toggleShowFullDescription"
+          class="text-green-500 hover:text-green-600 mb-5"
+        >
+          {{ showFullDescription ? 'Less' : 'More' }}
+        </button>
       </div>
 
       <h3 class="text-green-500 mb-2">{{ job.salary }}</h3>
@@ -52,7 +57,7 @@ const truncatedDescription = computed(() => {
           {{ job.location }}
         </div>
         <RouterLink
-          :to="'/job/' + job.id"
+          :to="'/jobs/' + job.id"
           class="h-[36px] bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-center text-sm"
         >
           Read More

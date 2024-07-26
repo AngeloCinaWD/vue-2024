@@ -1,6 +1,8 @@
 [video](https://www.youtube.com/watch?v=VeNfHj6MhgA&ab_channel=TraversyMedia)
 
-[tailwind_vue](https://v2.tailwindcss.com/docs/guides/vue-3-vite) 
+[full project code](https://github.com/bradtraversy/vue-crash-2024)
+
+[tailwind_vue](https://v2.tailwindcss.com/docs/guides/vue-3-vite)
 
 setto la porta che voglio per runnare il web server con npm run serve, default Ã¨ 5173 vite.config.js => server: {port: 3000}
 
@@ -11,3 +13,5 @@ setto la porta che voglio per runnare il web server con npm run serve, default Ã
 [primeicons](https://github.com/primefaces/primeicons)
 
 [vue-router](https://router.vuejs.org/installation.html)
+
+[json-server](https://www.npmjs.com/package/json-server)
