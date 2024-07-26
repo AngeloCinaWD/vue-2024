@@ -10,3 +10,4 @@ setto la porta che voglio per runnare il web server con npm run serve, default Ã
 
 [primeicons](https://github.com/primefaces/primeicons)
 
+[vue-router](https://router.vuejs.org/installation.html)
