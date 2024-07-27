@@ -10,6 +10,8 @@ setto la porta che voglio per runnare il web server con npm run serve, default Ã
 
 [primeicons_vue](https://primevue.org/icons)
 
+[lista-icone-primevue](https://primevue.org/icons/#list)
+
 [primeicons](https://github.com/primefaces/primeicons)
 
 [vue-router](https://router.vuejs.org/installation.html)
@@ -17,3 +19,5 @@ setto la porta che voglio per runnare il web server con npm run serve, default Ã
 [json-server](https://www.npmjs.com/package/json-server)
 
 [axios](https://www.npmjs.com/package/axios#package-manager)
+
+[vue-spinner](https://www.npmjs.com/package/vue-spinner)
