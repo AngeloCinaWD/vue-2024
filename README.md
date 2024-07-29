@@ -6,10 +6,6 @@
 
 [tailwind_vue](https://v2.tailwindcss.com/docs/guides/vue-3-vite)
 
-setto la porta che voglio per runnare il web server con npm run serve, default è 5173 vite.config.js => server: {port: 3000}
-
-@ nei path è la shorthand per src folder
-
 [primeicons_vue](https://primevue.org/icons)
 
 [lista-icone-primevue](https://primevue.org/icons/#list)
@@ -23,3 +19,9 @@ setto la porta che voglio per runnare il web server con npm run serve, default �
 [axios](https://www.npmjs.com/package/axios#package-manager)
 
 [vue-spinner](https://www.npmjs.com/package/vue-spinner)
+
+[vite-server-proxy](https://vitejs.dev/config/server-options.html#server-proxy)
+
+[vite-server-port](https://vitejs.dev/config/server-options.html#server-port)
+
+[vite-resolve-alias, @ nei path è la shorthand per src folder](https://vitejs.dev/config/shared-options.html#resolve-alias)
