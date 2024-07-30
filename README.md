@@ -1,4 +1,10 @@
-# ReadMe
+# README
+
+## Run':'
+
+    ### npm install
+    ### npm run dev
+    ### npm run server
 
 [video](https://www.youtube.com/watch?v=VeNfHj6MhgA&ab_channel=TraversyMedia)
 
@@ -27,3 +33,6 @@
 [vite-resolve-alias, @ nei path è la shorthand per src folder](https://vitejs.dev/config/shared-options.html#resolve-alias)
 
 [vue-toastification](https://github.com/Maronato/vue-toastification/tree/next)
+
+version nodeJs used: v22.4.0
+version npm: 10.8.1
