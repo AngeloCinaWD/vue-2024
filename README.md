@@ -25,3 +25,5 @@
 [vite-server-port](https://vitejs.dev/config/server-options.html#server-port)
 
 [vite-resolve-alias, @ nei path è la shorthand per src folder](https://vitejs.dev/config/shared-options.html#resolve-alias)
+
+[vue-toastification](https://github.com/Maronato/vue-toastification/tree/next)

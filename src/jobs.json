@@ -83,62 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "6899",
-      "title": "ssssss",
-      "type": "Full-Time",
-      "location": "sssss",
-      "description": "sssss",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "sss",
-        "description": "ssssss",
-        "contactEmail": "a@s.it",
-        "contactPhone": "222222222222222"
-      }
-    },
-    {
-      "id": "e3a5",
-      "title": "ssssss",
-      "type": "Full-Time",
-      "location": "sssss",
-      "description": "sssss",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "sss",
-        "description": "ssssss",
-        "contactEmail": "a@s.it",
-        "contactPhone": "222222222222222"
-      }
-    },
-    {
-      "id": "2e77",
-      "title": "aaaaaaaaaaaaaaaaaaaaaaa",
-      "type": "Full-Time",
-      "location": "dddd",
-      "description": "ddd",
-      "salary": "$50K - $60K",
-      "company": {
-        "name": "ddd",
-        "description": "ddd",
-        "contactEmail": "a@s.it",
-        "contactPhone": "222222222222222"
-      }
-    },
-    {
-      "id": "2ea1",
-      "title": "prova",
-      "type": "Full-Time",
-      "location": "atalanta",
-      "description": "prova",
-      "salary": "Over $200K",
-      "company": {
-        "name": "ddd",
-        "description": "fare tuttt",
-        "contactEmail": "a@s.it",
-        "contactPhone": "34567890"
-      }
     }
   ]
 }
